@@ -1,0 +1,14 @@
+Name: Celine Fong
+ID: 1580124
+CMPUT 274, Fall 2019
+Weekly Assignment #2: Unfair Dice
+
+Included Files: 
+* unfairDice.py
+* README
+
+Notes and Assumptions:
+
+The unfairDice.py file contains two functions, biased_rolls(prob_list, s, n) which takes a list of probabilities, a seed for the pseudo-random number generator, and integer number of dice rolls respectively, as arguments. It returns 'rolls' as a list of successive outcomes of the dice. The second function, draw_histogram(m, rolls, width) takes the number of faces of the die, list of successive outcomes, and desired width of the diagram as arguments, and prints a formatted histogram of the dice rolls to standard output. 
+
+When using biased_rolls, it is assumed that the list of probabilities will only contain floating point numbers between 0.0 and 1.0 whose sum is 1.0. Additionally, it assumes that n will be an integer number of dice rolls. When using draw_histogram, it is assumed that m and each of the elements in the list of successive outputs will be integers. It is also assumed that the desired width will be an integer. 
